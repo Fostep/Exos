@@ -12,9 +12,9 @@ def selectTri(liste):
       if(liste[min] > liste[j]):
         min = j
 
-  temp = liste[i]
-  liste[i] = liste[j]
-  liste[j] = temp
+    temp = liste[i]
+    liste[i] = liste[j]
+    liste[j] = temp
 
   print(liste)
 
